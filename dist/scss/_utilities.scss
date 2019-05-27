@@ -78,12 +78,6 @@
       background: lighten($danger-color, 5%);
     }
   }
-  &.btn-light {
-    @include set-background($light-color);
-    &:hover {
-      background: darken($light-color, 15%);
-    }
-  }
 
   &:hover {
     background: lighten($dark-color, 20%);
